@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900|Roboto:300,400,700,900');
+
+body{
+	background-color: #eeeeee;
+	color:  #303030;
+	font: 400 18px/1.34 'Raleway', sans-serif;
+	letter-spacing: 0.025em;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1240px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-header {
+	padding-top: 48px;
+}
+.ba-logo {
+	float: left;
+}
+.ba-nav {
+	float: right;
+	padding-top: 11px;
+}
+.ba-nav a {
+	font: 400 18px/1.5 'Roboto', sans-serif;
+	text-decoration: none;
+	color:  #303030;
+}
+.ba-nav a:hover {
+	color: #e10011;
+}
+
+.ba-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+}
+.ba-list li {
+	display: inline-block;
+}
+.ba-menu li:nth-child(n+2) {
+	padding-left: 50px;
+}
+.ba-slider {
+	padding-top: 100px;
+	width: 100%;
+	margin-left: -50px;
+}
+.ba-slider-col-text {
+	font: 300 24px/1.5 'Roboto', sans-serif;
+	float: left;
+	width: 55%;
+	text-align: right;
+}
+.ba-slider-col-img {
+	width: 45%;
+	float: left;
+}
+.ba-slider-col-img img {
+	display: block;
+	padding-left: 58px;
+}
+.ba-title {
+	margin: 0;
+	font: 900 150px/1 'Raleway', sans-serif;
+	text-transform: uppercase;
+	word-wrap: break-word;
+}
+[class*="ba-slider-col-"] {
+	float: left;
+	margin-bottom: 40px;
+	padding-left: 50px;
+}
+.ba-slider p {
+	padding: 20px 0 15px 10px;
+	margin: 0;
+}
+.ba-view-link {
+	text-decoration: none;
+	color:  #e10011;
+	font-size: 24px;
+	font-weight: 700;
+}
+.ba-slider-control {
+	clear: both;
+	text-align: center;
+	padding: 22px 0 100px 0;
+}
+.ba-dots {
+	display: block;
+	height: 12px;
+	width: 12px;
+	background-color: #303030;
+	border-radius: 50%;
+}
+.ba-dots:hover {
+	background-color: #e10011;
+}
+.active-dot {
+	background-color: #e10011
+}
+.ba-slider-switcher li {
+	padding: 0 2px;
+}
+
+.featured-product {
+	background-color: #FFF;
+	border-radius: 10px;
+	padding: 72px;
+}
+.ba-product-text {
+	text-align: center;
+	width: 55%;
+	margin: 0 auto;
+	padding: 7px 0 70px 0;
+}
+.ba-product-text p {
+	margin: 0;
+	padding-top: 11px;
+}
+.ba-subtitle {
+	margin: 0;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 2.125em;
+	letter-spacing: 0.025em;
+	background: url(../img/risunok.png) 50% 100% no-repeat;
+}
+.ba-product {
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	color: #FFF;
+	display: block;
+	overflow: hidden;
+}
+.ba-product img {
+	display: block;
+}
+.ba-product_caption {
+	background: red;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-radius: 10px;
+	opacity: 0.7;
+	transform: translateX(-101%);
+	transition: 1s ease-in-out;
+}
+.ba-product:hover .ba-product_caption {
+	transform: translateX(0);
+}
+.ba-product_caption-body {
+	padding: 0 20px;
+	position: absolute;
+	font: 900 30px 'Roboto', sans-serif;
+	text-align: left;
+	bottom: 42px;
+}
+.ba-product_title,
+.ba-product_subtitle {
+	margin: 0;
+}
+
+
+
+[class*="ba-product-col-"] {
+	float: left;
+	margin-bottom: 35px;
+	padding-left: 35px;
+}
+.ba-row {
+	margin-left: -35px;
+}
+.ba-product-col-70 {
+	width: 66.6%;
+}
+.ba-product-col-30 {
+	width: 33.3%;
+}
+.line {
+	display: block;
+	background-color:  #ffffff;
+	width: 95px;
+	height: 5px;
+	margin-top: 10px;
+	margin-left: 1px;
+}
